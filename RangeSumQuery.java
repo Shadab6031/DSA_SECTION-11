@@ -28,7 +28,8 @@ public class RangeSumQuery
             int sum;
             if (l == 0) {
                 sum = prefixsum[r];
-            } else {
+            } 
+            else {
                 sum = prefixsum[r] - prefixsum[l - 1]; 
             }
             System.out.println("Sum from " + l + " to " + r + " = " + sum);
