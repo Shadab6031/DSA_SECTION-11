@@ -12,7 +12,7 @@ public class SumTriplet {
                 int sum = arr[i] + arr[left] + arr[right];
 
                 if (sum == target) {
-                    System.out.println("Triplet Found: (" + arr[i] + ", " + arr[left] + ", " + arr[right] + ")");
+                    System.out.println( arr[i] +","+ arr[left] + "," + arr[right] );
                     return; 
                 } else if (sum < target) {
                     left++;  
